@@ -1,4 +1,9 @@
 var builder = WebApplication.CreateBuilder(args);
+//Add Application Insights using Connection String
+builder.Services.AddApplicationInsightsTelemetry(options =>
+{
+    options.ConnectionString = builder.Configuration["ApplicationInsights:ConnectionString"];
+});
 
 // Add services to the container.
 builder.Services.AddRazorPages();
