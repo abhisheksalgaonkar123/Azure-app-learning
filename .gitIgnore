@@ -1,0 +1,45 @@
+# Visual Studio / .NET
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS Code
+.vscode/
+.history/
+*.code-workspace
+
+# Rider
+.idea/
+
+# NuGet
+*.nupkg
+packages/
+*.snupkg
+
+# Logs
+*.log
+*.tlog
+
+# Azure / publishing
+*.Publish.xml
+*.azurePubxml
+*.azurePubxml.user
+*.appsettings.local.json
+*.env
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Temporary / backup files
+*.tmp
+*.bak
+*.swp
+*.old
+
+# Node / frontend (if any)
+node_modules/
+dist/
